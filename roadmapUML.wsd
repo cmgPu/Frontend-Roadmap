@@ -1,0 +1,152 @@
+@startuml
+skinparam handwritten true
+skinparam activityFontSize 22
+skinparam noteFontSize 16
+skinparam titleFontSize 42
+
+title Frontend Developer Roadmap 2021.
+
+start
+    :Internet;
+    note left
+        How does the Internet work
+        HTTP
+        Browsers and how they work
+        DNS and how it works
+    end note
+
+    :HTML;
+    note right
+        Learn the basics
+        Semantic HTML and ARIA
+    end note
+
+    :CSS;
+    note left
+        Learn the basics & CSS 3
+        Making layouts
+        * Positioning
+        * Display
+        * Flexbox
+        Media Queries
+    end note
+
+    :Basics of Javascript;
+    note right
+    Syntax and basic constructs
+    Learn DOM manipulation
+    Learn Fetch / Ajax API
+    Data Handling
+    end note
+
+
+    :Version Control Systems;
+    note left
+    Basic usage of Git
+    end note
+
+    :Debugging;
+    note right
+        Breakpoints
+        Debugger
+    end note
+
+    :UX;
+    note left
+        Responsive design
+        Animations (CSS + JS)
+        Accessibility
+    end note
+
+    :CSS Frameworks;
+    note right
+        Bootstrap
+    end note
+
+    :Web Security;
+    note left
+        HTTP/HTTPS/TLS
+        CORS
+        Content Security Policy
+        OWASP Security Risks
+    end note
+
+    :Package managers;
+    note right
+        NPM
+    end note
+
+    :Build Tools;
+    note left
+        Task Runners
+        * Gulp
+        Module bundlers
+        * Webpack
+        Linters and Formaters
+        * Prettier
+        * ESLint
+        * StyleLint
+    end note
+
+    :CSS Pre-processors;
+    note right
+        SASS
+    end note
+
+    :Javascript Runtime;
+    note left
+        NodeJS
+    end note
+
+    :JS Optimisation;
+    note right
+        Tree Shaking
+        Code Splitting
+    end note
+
+    :Frameworks;
+    note left
+        ReactJS
+        * State management using Context API
+        * Redux
+        * Type Checkers
+        * PropTypes
+        * Typescript
+        GraphQL
+        NextJS
+    end note
+
+    :CSS in JS;
+    note right
+        Styled Components
+    end note
+
+    :Testing;
+    note left
+        Jest
+        Cross Browser
+    end note
+
+    :Deployements;
+    note right
+        Pipelines
+        CDNs
+        Caching
+    end note
+
+    :Optimizations;
+    note left
+        Performance metrics
+        Using DevTools
+        Using LightHouse
+    end note
+
+    :Mobile Pages;
+    note right
+        AMP
+        AMP Stories
+    end note
+
+stop
+
+@enduml
