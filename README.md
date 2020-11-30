@@ -53,7 +53,7 @@
 **Debugging**
 
 - **Breakpoints**
-  - https://developer.mozilla.org/en-US/docs/Tools/Debugger/How\_to/Set\_a\_breakpoint
+  - https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Set_a_breakpoint
 - **Debugger**
   - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)
 
